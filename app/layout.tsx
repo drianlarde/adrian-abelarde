@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils';
+import { Analytics } from '@vercel/analytics/react';
 import { Kanit } from 'next/font/google';
 
 import './globals.css';
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: any) {
         <html lang="en">
             <body className={cn(kanit.className, 'bg-[#181c26]')}>
                 {children}
+                <Analytics />
             </body>
         </html>
     );
