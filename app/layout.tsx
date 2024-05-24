@@ -35,6 +35,10 @@ export const metadata = {
     twitter: {
         card: 'summary_large_image',
     },
+    other: {
+        name: 'google-site-verification',
+        content: 'AuXaJq7idKUYjI9j2rO7PkM3DtluQOg-vsASRInG6SI',
+    },
 };
 
 export default function RootLayout({ children }: any) {
