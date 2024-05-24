@@ -76,16 +76,16 @@ const experiences = [
             <>
                 Produced a compelling commercial video for the iOS tablet
                 application using <b>After Effects</b> and <b>Premiere Pro</b>.
-                Utilized <b>Mocha AE's</b> planar tracking capabilities to
-                accurately replace the tablet's stock screen with our actual UI
-                design created in Figma, resulting in a polished video that
-                effectively showcases the application's interface and user
-                experience.
+                Utilized <b>Mocha AE&apos;s</b> planar tracking capabilities to
+                accurately replace the tablet&apos;s stock screen with our
+                actual UI design created in Figma, resulting in a polished video
+                that effectively showcases the application&apos;s interface and
+                user experience.
             </>,
             <>
                 Created a series of contemplative, meditative, and explainer
                 videos using <b>After Effects</b> and <b>Premiere Pro</b> to
-                support the brand's marketing efforts and content strategy.
+                support the brand&apos;s marketing efforts and content strategy.
             </>,
             <>
                 Developed a static front-end test page using <b>SwiftUI</b>,
@@ -141,8 +141,8 @@ const experiences = [
                 making.
             </>,
             <>
-                Implemented a seamless, real-time chat system within the team's
-                project environment using <b>Supabase</b> real-time
+                Implemented a seamless, real-time chat system within the
+                team&apos;s project environment using <b>Supabase</b> real-time
                 functionality. Designed the system to trigger client-side
                 updates whenever changes occurred in the database, ensuring
                 smooth collaboration and communication among team members.
@@ -168,19 +168,19 @@ const experiences = [
             <>
                 Developed a role-based access control system that allows project
                 managers to add team members, create accounts, and assign roles
-                such as 'client' or 'project manager'. The system filters access
-                based on user roles, limiting actions and page views according
-                to the user's assigned role.
+                such as &apos;client&apos; or &apos;project manager&apos;. The
+                system filters access based on user roles, limiting actions and
+                page views according to the user&apos;s assigned role.
             </>,
             <>
                 Created a comprehensive dashboard to provide project managers
-                with an overview of their team's progress, enabling them to
+                with an overview of their team&apos;s progress, enabling them to
                 track key metrics and make data-driven decisions.
             </>,
             <>
                 Implemented a notification system that alerts users of any
-                actions taken within their team's project, ensuring that all
-                team members stay informed and up-to-date on project
+                actions taken within their team&apos;s project, ensuring that
+                all team members stay informed and up-to-date on project
                 developments.
             </>,
         ],
@@ -210,8 +210,9 @@ const experiences = [
                 separate admin interface and reducing development time.
             </>,
             <>
-                Optimized the website's performance and search engine visibility
-                using NextJS 13's advanced features and best practices for SEO.
+                Optimized the website&apos;s performance and search engine
+                visibility using NextJS 13&apos;s advanced features and best
+                practices for SEO.
             </>,
         ],
     },
@@ -268,7 +269,7 @@ const experiences = [
                     rel="noopener noreferrer"
                     className="text-blue-400 underline"
                 >
-                    'All Life in Focus'
+                    &apos;All Life in Focus&apos;
                 </a>
                 .
             </>,
@@ -284,8 +285,8 @@ const experiences = [
             <>
                 Utilized <b>JIRA</b> for streamlined project management,
                 consistently updating progress and assigning task points to
-                enhance the software engineering team's visibility into overall
-                project velocity.
+                enhance the software engineering team&apos;s visibility into
+                overall project velocity.
             </>,
         ],
     },
@@ -590,7 +591,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="radial-gradient fixed top-0 left-0 w-full h-full pointer-events-none -z-10 opacity-10"></div>
+            <div className="radial-gradient pointer-events-none fixed left-0 top-0 -z-10 h-full w-full opacity-10"></div>
 
             <AnimatedCursor
                 innerSize={8}
@@ -760,7 +761,7 @@ export default function Home() {
                                     Pamantasan ng Lungsod ng Maynila
                                 </a>
                             </span>{' '}
-                            in 2020. Since then, I've honed my skills as a
+                            in 2020. Since then, I&apos;ve honed my skills as a
                             full-stack developer, working on diverse projects
                             like{' '}
                             <span className="font-medium text-white">
@@ -808,8 +809,9 @@ export default function Home() {
                                 </a>
                             </span>{' '}
                             I love blending creativity with technical expertise,
-                            whether I'm designing UI/UX in Figma, implementing
-                            real-time features, or optimizing performance.
+                            whether I&apos;m designing UI/UX in Figma,
+                            implementing real-time features, or optimizing
+                            performance.
                         </p>
                         <br />
                         <p
@@ -818,7 +820,7 @@ export default function Home() {
                                 inter.className,
                             )}
                         >
-                            I'm also the Web Development Lead at{' '}
+                            I&apos;m also the Web Development Lead at{' '}
                             <span className="font-medium text-white">
                                 <a
                                     href="https://www.gdsc-plm.org/"
@@ -829,9 +831,9 @@ export default function Home() {
                                     Google Developers Students Club (PLM)
                                 </a>
                             </span>
-                            . I've collaborated on impactful projects and led a
-                            team to victory in the Diliman Solutions Challenge
-                            2023.
+                            . I&apos;ve collaborated on impactful projects and
+                            led a team to victory in the Diliman Solutions
+                            Challenge 2023.
                         </p>
                         <br />
                         <p
@@ -840,9 +842,10 @@ export default function Home() {
                                 inter.className,
                             )}
                         >
-                            When I'm not coding, you'll find me exploring design
-                            trends, gaming, reading self-help books, cycling or
-                            enjoying adventures with loved ones.
+                            When I&apos;m not coding, you&apos;ll find me
+                            exploring design trends, gaming, reading self-help
+                            books, cycling or enjoying adventures with loved
+                            ones.
                         </p>
                         <Button
                             className={cn(
