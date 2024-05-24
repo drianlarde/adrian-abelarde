@@ -10,6 +10,11 @@ const kanit = Kanit({
 });
 
 export const metadata = {
+    metadataBase: new URL(
+        process.env.NODE_ENV === 'development'
+            ? 'localhost:3000'
+            : process.env.NEXT_PUBLIC_BASE_URL!,
+    ),
     title: 'Adrian Abelarde',
     description:
         'Full-stack Developer, UI/UX Designer, 3D Artist, Motion Designer, and more. Creative front-end developer with a passion for creating beautiful and functional user experiences. I love animations!',
@@ -18,14 +23,20 @@ export const metadata = {
         description:
             'Full-stack Developer, UI/UX Designer, 3D Artist, Motion Designer, and more. Creative front-end developer with a passion for creating beautiful and functional user experiences. I love animations!',
         type: 'website',
-        images: [`${process.env.NEXT_PUBLIC_BASE_URL}/opengraph-image.png`],
+        images: [
+            `${
+                process.env.NODE_ENV === 'development'
+                    ? 'localhost:3000'
+                    : process.env.NEXT_PUBLIC_BASE_URL!
+            }/opengraph-image.png`,
+        ],
     },
     twitter: {
         card: 'summary_large_image',
     },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: any) {
     return (
         <html lang="en">
             <body className={cn(kanit.className, 'bg-[#181c26]')}>

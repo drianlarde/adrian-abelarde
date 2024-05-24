@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 
-export default function Container({ children, className }) {
+export default function Container({ children, className }: any) {
     return (
         <section
             className={cn(

@@ -8,6 +8,10 @@ export default function robots(): MetadataRoute.Robots {
                 allow: '/',
             },
         ],
-        sitemap: `${process.env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`,
+        sitemap: `${
+            process.env.NODE_ENV === 'development'
+                ? 'localhost:3000'
+                : process.env.NEXT_PUBLIC_BASE_URL!
+        }/sitemap.xml`,
     };
 }

@@ -75,10 +75,6 @@
     }
   }
 
-  @layer components {
-    .radial-gradient {
-      @apply fixed top-0 left-0 w-full h-full pointer-events-none z-[-1];
-      background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(71, 188, 255, 0.3), transparent 50%);
-      transition: opacity 0.3s ease-in-out;
-    }
+  .radial-gradient {
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(71, 188, 255, 0.1), transparent 38%);
   }

@@ -1,37 +1,39 @@
-# Adrian Abelarde's Portfolio
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to my personal portfolio website! I am Adrian Abelarde, a passionate full-stack developer with a strong foundation in Computer Science. This website showcases my skills, projects, and experiences in the world of web development.
+## Getting Started
 
-## About Me
+First, run the development server:
 
-My journey as a web developer began when I started my Computer Science degree at [Pamantasan ng Lungsod ng Maynila](https://plm.edu.ph/) in 2020. Since then, I have been continuously honing my skills and working on various projects to expand my knowledge and expertise.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-I have a deep love for exploring the latest web technologies and leveraging my diverse skill set to build innovative and user-friendly applications. Whether it's designing intuitive user interfaces in Figma, implementing real-time features, or optimizing performance, I always strive to blend creativity with technical excellence.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Projects
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Throughout my career, I have had the opportunity to work on several exciting projects:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
--   [RenewMe](https://myrenewme.com/): A web application that helps users renew their subscriptions and manage their accounts.
--   [Constflow](https://constflow.vercel.app/): A real-time construction management platform for streamlining project workflows.
--   [SyntechX Labs](https://www.syntechx.io/): A cutting-edge technology company specializing in artificial intelligence and machine learning.
+## Learn More
 
-I have also completed an internship at [Focus Global Inc.](https://www.focusglobalinc.com/), where I gained valuable experience in a professional setting.
+To learn more about Next.js, take a look at the following resources:
 
-## Leadership and Collaboration
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-As the Web Development Lead at [Google Developers Students Club (PLM)](https://www.gdsc-plm.org/), I have had the privilege of collaborating on impactful projects and leading a team to victory in the Diliman Solutions Challenge 2023. This experience has strengthened my leadership skills and ability to work effectively in a team environment.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Interests and Hobbies
+## Deploy on Vercel
 
-When I'm not coding, you'll find me exploring the latest design trends, gaming, reading self-help books, cycling, or embarking on exciting adventures with my loved ones. I believe in maintaining a healthy work-life balance and constantly seeking opportunities for personal growth.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Get in Touch
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-I'm always excited to connect with fellow developers, designers, and anyone passionate about technology. If you'd like to collaborate on a project, discuss potential opportunities, or simply chat about web development, feel free to reach out to me:
-
--   Email: [adrianabelarde@gmail.com](mailto:adrianabelarde@gmail.com)
--   LinkedIn: [Adrian Abelarde](https://www.linkedin.com/in/drianlarde/)
--   Twitter: [@drianlarde_main](https://twitter.com/drianlarde_main)
-
-Thank you for visiting my portfolio website. I look forward to connecting with you!
+Deploy
+Counter: 1
